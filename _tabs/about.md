@@ -1,8 +1,8 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+EZ-FRCNN aims to democratize access to the increasingly common FRCNN computer vision architecture by providing an open-source pipeline for annotating data, fine-tuning models pretrained
+  on the COCO dataset, quantizing and pruning model, and running inferencing on videos or images.
