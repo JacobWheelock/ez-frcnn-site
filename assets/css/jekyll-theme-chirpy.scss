@@ -1,0 +1,30 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+#avatar {
+    display: none; /* Hide the avatar and border */
+    border: none;  /* Remove any border */
+}
+#sidebar #avatar {
+    box-shadow: none;
+}
+#sidebar .profile-wrapper {
+    margin-top: -5rem; /* Adjust this value as needed */
+    padding-top: 0; /* Remove padding if necessary */
+}
+
+#sidebar .site-title {
+    margin-top: 0.5rem; /* Adjust this value as needed */
+}
+
+#sidebar .site-subtitle {
+    margin-top: 0.2rem; /* Adjust this value as needed */
+}

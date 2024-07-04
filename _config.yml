@@ -2,7 +2,6 @@
 
 # Import the theme
 theme: jekyll-theme-chirpy
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -16,7 +15,7 @@ timezone:
 
 title: EZ-FRCNN # the main title
 
-tagline: Democratizing Computer Vision # it will display as the sub-title
+tagline:  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   EZ-FRCNN aims to democratize access to the increasingly common FRCNN computer vision architecture by providing an open-source pipeline for annotating data, fine-tuning models pretrained
@@ -97,11 +96,11 @@ theme_mode: [dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://raw.githubusercontent.com/JacobWheelock/JacobWheelock.github.io/main/images/logo.PNG
+#avatar: 
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: https://raw.githubusercontent.com/JacobWheelock/JacobWheelock.github.io/main/images/logo.PNG
+#social_preview_image: 
 
 # boolean type, the global switch for TOC in posts.
 toc: false
@@ -134,7 +133,7 @@ assets:
     enabled: # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development | production]
+    env:  [production]
 
 pwa:
   enabled: true # the option for PWA feature (installable)
@@ -198,6 +197,8 @@ defaults:
 
 sass:
   style: compressed
+plugins:
+  - jekyll-sass-converter
 
 compress_html:
   clippings: all
