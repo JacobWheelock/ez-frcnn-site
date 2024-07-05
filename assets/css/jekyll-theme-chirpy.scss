@@ -28,3 +28,8 @@
 #sidebar .site-subtitle {
     margin-top: 0.2rem; /* Adjust this value as needed */
 }
+
+#search {
+    display: none; /* Hide the avatar and border */
+    border: none;  /* Remove any border */
+}
