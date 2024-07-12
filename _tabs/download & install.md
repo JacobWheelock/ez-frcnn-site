@@ -36,12 +36,11 @@ order: 1
   <summary>Download and Install for Windows</summary>
   
   <div class="collapsible-content">
-    <p> 1. Create a Docker Account <a href="https://hub.docker.com/signup/" target="_blank">Here</a></p>
-    <p> 2. Download Docker Desktop <a href="https://docs.docker.com/desktop/install/windows-install/" target="_blank">Here</a></p>
-    <p> 3. Launch Docker Desktop & Login </p>
-    <p> 4. Download the EZ-FRCNN notebook and associated libraries <a href="https://github.com/JacobWheelock/FRCNN2/archive/refs/heads/main.zip">here</a> </p>
-    <p> 5. Extract the contents of the ZIP file downloaded in the last step to a folder of your choice </p>
-    <p> 6. Double click "ez-frcnn.bat" - This will download the required environment and launch EZ-FRCNN </p>
+    <p> 1. Download Docker Desktop <a href="https://docs.docker.com/desktop/install/windows-install/" target="_blank">Here</a></p>
+    <p> 2. Launch Docker Desktop </p>
+    <p> 3. Download EZ-FRCNN <a href="https://github.com/JacobWheelock/FRCNN2/archive/refs/heads/main.zip">here</a> </p>
+    <p> 4. Extract the contents of the ZIP file downloaded in the last step to a folder of your choice </p>
+    <p> 5. Double click "ez-frcnn.bat" - This will download the required environment and launch EZ-FRCNN </p>
   </div>
 
 </details>
@@ -50,11 +49,10 @@ order: 1
   <summary>Download and Install for MacOS</summary>
   
   <div class="collapsible-content">
-    <p> 1. Create a Docker Account <a href="https://hub.docker.com/signup/" target="_blank">Here</a></p>
-    <p> 2. Download Docker Desktop <a href="https://docs.docker.com/desktop/install/mac-install/" target="_blank">Here</a></p>
-    <p> 3. Launch Docker Desktop & Login </p>
-    <p> 4. Download the EZ-FRCNN notebook and associated libraries <a href="https://github.com/JacobWheelock/FRCNN2/archive/refs/heads/main.zip">here</a> </p>
-    <p> 5. Extract the contents of the ZIP file downloaded in the last step to a folder of your choice </p>
+    <p> 1. Download Docker Desktop <a href="https://docs.docker.com/desktop/install/mac-install/" target="_blank">Here</a></p>
+    <p> 2. Launch Docker Desktop </p>
+    <p> 3. Download EZ-FRCNN <a href="https://github.com/JacobWheelock/FRCNN2/archive/refs/heads/main.zip">here</a> </p>
+    <p> 4. Extract the contents of the ZIP file downloaded in the last step to a folder of your choice </p>
    
   </div>
 
@@ -64,11 +62,10 @@ order: 1
   <summary>Download and Install for Linux</summary>
   
   <div class="collapsible-content">
-    <p> 1. Create a Docker Account <a href="https://hub.docker.com/signup/" target="_blank">Here</a></p>
-    <p> 2. Download Docker Desktop <a href="https://docs.docker.com/desktop/install/linux-install/" target="_blank">Here</a></p>
-    <p> 3. Launch Docker Desktop & Login </p>
-    <p> 4. Download the EZ-FRCNN notebook and associated libraries <a href="https://github.com/JacobWheelock/FRCNN2/archive/refs/heads/main.zip">here</a> </p>
-    <p> 5. Extract the contents of the ZIP file downloaded in the last step to a folder of your choice </p>
+    <p> 1. Download Docker Desktop <a href="https://docs.docker.com/desktop/install/linux-install/" target="_blank">Here</a></p>
+    <p> 2. Launch Docker Desktop </p>
+    <p> 3. Download EZ-FRCNN <a href="https://github.com/JacobWheelock/FRCNN2/archive/refs/heads/main.zip">here</a> </p>
+    <p> 4. Extract the contents of the ZIP file downloaded in the last step to a folder of your choice </p>
   </div>
 
 </details>
