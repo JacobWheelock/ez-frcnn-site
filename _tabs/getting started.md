@@ -4,8 +4,6 @@ icon: fas fa-play
 order: 2
 ---
 
-# Getting Started with EZ-FRCNN
-
 Welcome to EZ-FRCNN! This tool is designed to make machine learning more accessible, helping you to use advanced image detection without needing a deep background in programming or machine learning. Below, you’ll find simple steps to get started with annotation, training, and inference.
 
 ## Step 1: Annotation – Labeling Your Images
