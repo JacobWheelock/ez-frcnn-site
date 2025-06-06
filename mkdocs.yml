@@ -1,0 +1,39 @@
+site_name: EZ-FRCNN Documentation
+site_url: https://ezfrcnn.com/mkdocs/
+site_description: User guide and documentation for the EZ-FRCNN object detection system
+site_author: Jacob Wheelock
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.annotate
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - Training: training.md
+  - Exporting Results: exporting.md
+  - FAQ: faq.md
+  - GitHub: https://github.com/HangLu-Lab/ez-frcnn
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+
+plugins:
+  - search
