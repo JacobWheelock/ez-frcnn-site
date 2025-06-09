@@ -1,18 +1,17 @@
-name: Deploy MkDocs Documentation
+name: Deploy MkDocs Site
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
-      - 'docs/**'
       - 'mkdocs.yml'
+      - 'docs/**'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -20,10 +19,8 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
-        run: |
-          pip install mkdocs mkdocs-material
+      - name: Install MkDocs
+        run: pip install mkdocs mkdocs-material mkdocstrings
 
-      - name: Deploy MkDocs
-        run: |
-          mkdocs gh-deploy --force
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force --remote-branch gh-pages
